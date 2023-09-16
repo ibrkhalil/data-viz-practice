@@ -145,7 +145,7 @@ d3.json("data/coins.json").then(data => {
 
 const update = (data) => {
 	const transition = d3.transition()
-	.duration(1000)
+		.duration(1000)
 	// set scale domains
 	data[selectedCoin].map(d => {
 		d.year = parseTime(d.date)
