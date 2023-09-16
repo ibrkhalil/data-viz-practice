@@ -56,3 +56,13 @@
   stroke-width: 3px;
   stroke: grey;
 }
+
+.y-axis-title {
+  font-size: large;
+  font-weight: bold;
+}
+
+.x-axis-title {
+  font-size: large;
+  font-weight: bold;
+}
